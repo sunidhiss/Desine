@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Desine</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo" aria-hidden="true">
+          <img src="icons/1.png" alt="">
+        </div>
+      </header>
+
+      <div class="controls">
+        <button id="scrape" type="button">
+          Scrape Page
+        </button>
+      </div>
+
+      <section id="results" class="results" style="display:none">
+        <div class="card">
+          <div class="section-title">
+            <h2>Fonts</h2>
+            <span id="fonts-count" class="section-count"></span>
+          </div>
+          <ul id="fonts" class="list fonts"></ul>
+        </div>
+
+        <div class="card">
+          <div class="section-title">
+            <h2>Colors</h2>
+            <span id="colors-count" class="section-count"></span>
+          </div>
+          <div id="colors" class="colors-grid"></div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">
+            <h2>Letter Spacing</h2>
+          </div>
+          <div id="spacing" class="spacing"></div>
+        </div>
+      </section>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
