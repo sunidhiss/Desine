@@ -18,3 +18,11 @@ Desine scrapes a page to extract fonts, commonly used colors (hex), and letter-s
 - This is an initial prototype. Possible improvements: handle alpha colors, detect exact font files, and extract spacing per selector.
 - Need to figure out how to get colors from images used in a website without making this project huge.
 - If willing to improve, please add your improvements and send a PR.
+
+## How it would look:
+
+<img width="3000" height="1608" alt="image" src="https://github.com/user-attachments/assets/e932d1a3-8cef-4b26-9ac9-f731e2af11ae" />
+
+<img width="998" height="1356" alt="image" src="https://github.com/user-attachments/assets/15030c4c-d71c-4e5b-85c1-34b0fa212b69" />
+
+
